@@ -10,7 +10,7 @@ BuildArch:      noarch
 
 Requires:       java-headless
 
-BuildRequires:  maven-local
+BuildRequires:  maven
 #BuildRequires:  junit
 #BuildRequires:  mockito
 
@@ -24,11 +24,12 @@ Summary:        javadoc for %{name}
 This package contains the API documentation for %{name}
 
 %prep
-%setup -q
+%setup -q -n dbeaver-%{version}
+#%setup -q -n dbeaver
 
 %build
 #%mvn_build -f
-%mvn_build
+%mvn_build -f
 
 %install
 %mvn_install
