@@ -1,14 +1,14 @@
-Name:           dbeaver-ce-stable
+Name:           dbeaver
 Version:        5.3.1
 Release:        1%{?dist}
 Summary:        Free multi-platform database tool.
-
 License:        ASL 2.0
 URL:            https://dbeaver.io
-Source0:        https://github.com/dbeaver/dbeaver/archive/master.tar.gz
+#Source0:        https://github.com/dbeaver/dbeaver/archive/master.tar.gz
+Source0:        https://github.com/dbeaver/dbeaver/archive/5.3.1.tar.gz
 BuildArch:      noarch
 
-Requires:       java-1.8.0-openjdk
+Requires:       java-headless
 
 BuildRequires:  maven-local
 
