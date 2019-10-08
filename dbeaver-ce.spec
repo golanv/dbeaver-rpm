@@ -1,7 +1,7 @@
 Name:		dbeaver-ce
 Version:	6.2.2
 Release:	1%{?dist}
-Summary:	Free multi-platform database tool.
+Summary:	Universal Database Manager and SQL Client
 
 License:	ASL 2.0	
 URL:		https://dbeaver.io
@@ -19,7 +19,7 @@ BuildRequires: java-1.8.0-openjdk-devel
 ExclusiveArch: x86_64
 
 %description
-Free multi-platform database tool
+Universal Database Manager and SQL Client
 
 %global debug_package %{nil} 
 
