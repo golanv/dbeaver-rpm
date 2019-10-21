@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	6.2.2
+Version:	6.2.3
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -57,5 +57,7 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
-* Mon Oct 07 2019 Golanv mullein@adelie.io
+* Mon Oct 21 2019 Golanv <mullein@adelie.io> 6.2.3
+- Version bump
+* Mon Oct 07 2019 Golanv <mullein@adelie.io>
 - Bump to upstream
