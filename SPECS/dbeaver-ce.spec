@@ -1,6 +1,6 @@
 Name:		dbeaver-ce
 Version:	6.2.4
-Release:	2%{?dist}
+Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
 License:	ASL 2.0	
@@ -57,9 +57,8 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
-* Mon Nov 04 2019 Golanv <mullein@adelie.io> 6.2.4-2
-- Updates dbeaver.desktop file
 * Mon Nov 04 2019 Golanv <mullein@adelie.io> 6.2.4
+- Updates dbeaver.desktop file
 - Version bump
 * Mon Oct 21 2019 Golanv <mullein@adelie.io> 6.2.3
 - Version bump
