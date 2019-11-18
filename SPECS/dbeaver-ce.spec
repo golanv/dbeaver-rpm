@@ -1,9 +1,5 @@
 Name:		dbeaver-ce
-<<<<<<< HEAD
 Version:	6.2.5
-=======
-Version:	6.2.4
->>>>>>> 0bdddc838d7f9c9faeb625b24f39117b91312a40
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -13,12 +9,10 @@ Source0:	https://github.com/dbeaver/dbeaver/archive/%{version}.tar.gz#/dbeaver-%
 Source1:	dbeaver.desktop
 #Patch0:		dbeaver-workspacepath.patch
 #Patch1:		dbeaver-driverspath.patch
-#Requires:	java-1.8.0-openjdk
-Requires:      java >= 11
-#BuildRequires: maven
+Requires:      java >= 1.8
+BuildRequires: maven
 BuildRequires: dos2unix
-BuildRequires: java >= 11
-#BuildRequires: java-1.8.0-openjdk-devel
+BuildRequires: java-devel >= 1.8
 #ExcludeArch: ppc64le
 #ExcludeArch: s390x
 #%%{ix86} 
@@ -63,13 +57,8 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
-<<<<<<< HEAD
 * Mon Nov 18 2019 Golanv <mullein@adelie.io> 6.2.5
 - Version bump
-* Mon Nov 04 2019 Golanv <mullein@adelie.io> 6.2.4-2
-- Updates dbeaver.desktop file
-=======
->>>>>>> 0bdddc838d7f9c9faeb625b24f39117b91312a40
 * Mon Nov 04 2019 Golanv <mullein@adelie.io> 6.2.4
 - Updates dbeaver.desktop file
 - Version bump
