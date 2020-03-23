@@ -5,17 +5,12 @@ Summary:	Universal Database Manager and SQL Client
 
 License:	ASL 2.0	
 URL:		https://dbeaver.io
-Source0:	https://github.com/dbeaver/dbeaver/archive/%{version}.tar.gz#/dbeaver-%{version}.tar.gz
+Source0:        https://github.com/dbeaver/dbeaver/archive/%{version}.tar.gz
 Source1:	dbeaver.desktop
-#Patch0:		dbeaver-workspacepath.patch
-#Patch1:		dbeaver-driverspath.patch
 Requires:      java >= 1.8
 BuildRequires: maven
 BuildRequires: dos2unix
 BuildRequires: java-devel >= 1.8
-#ExcludeArch: ppc64le
-#ExcludeArch: s390x
-#%%{ix86} 
 ExclusiveArch: x86_64
 
 %description
@@ -31,10 +26,6 @@ Universal Database Manager and SQL Client
 
 %prep
 %setup -q -n dbeaver-%{version}
-/usr/bin/dos2unix plugins/org.jkiss.dbeaver.model/src/org/jkiss/dbeaver/model/DBConstants.java
-/usr/bin/dos2unix plugins/org.jkiss.dbeaver.core.application/src/org/jkiss/dbeaver/core/application/DBeaverApplication.java
-#%%patch0 -p0
-#%%patch1 -p0
 cp %{SOURCE1} %{_builddir}/
 
 %build
