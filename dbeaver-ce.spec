@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	7.0.5
+Version:	7.1.0
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -48,6 +48,8 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Tue Jun 09 2020 Golanv <mullein@adelie.io 7.1.0-1
+- Version bump to 7.1.0
 * Mon May 18 2020 Golanv <mullein@adelie.io> 7.0.5-1
 - Version bump to 7.0.5
 * Mon May 04 2020 Golanv <mullein@adelie.io> 7.0.4-1
