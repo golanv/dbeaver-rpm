@@ -48,6 +48,8 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Sun Oct 4 2020 Golanv <mullein@adelie.io> 7.2.2-1
+- Version bump to 7.2.2
 * Mon Sep 21 2020 Golanv <mullein@adelie.io> 7.2.1-1
 - Version bump to 7.2.1
 * Wed Sep 2 2020 Golanv <mullein@adelie.io> 7.2.0-1
