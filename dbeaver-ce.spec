@@ -1,9 +1,9 @@
 Name:		dbeaver-ce
-Version:	7.3.4
+Version:	7.3.5
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
-License:	ASL 2.0	
+License:	ASL 2.0
 URL:		https://dbeaver.io
 Source0:        https://github.com/dbeaver/dbeaver/archive/%{version}.tar.gz
 Source1:	dbeaver.desktop
@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Mon Feb 15 2021 Golanv <mullein@adelie.io> 4.3.5-1
+- Version bump to 7.3.5
+- https://github.com/dbeaver/dbeaver/releases/tag/7.3.5
 * Mon Feb 01 2021 Golanv <mullein@adelie.io> 7.3.4-1
 - Version bump to 7.3.4
 - https://github.com/dbeaver/dbeaver/releases/tag/7.3.4
