@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	21.0.0
+Version:	21.0.1
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -32,7 +32,7 @@ cp %{SOURCE1} %{_builddir}/
 
 mvn package
 mkdir -p usr/share
-mv product/standalone/target/products/org.jkiss.dbeaver.core.product/linux/gtk/%{sourcedir}/dbeaver usr/share/
+mv product/community/target/products/org.jkiss.dbeaver.core.product/linux/gtk/%{sourcedir}/dbeaver usr/share/
 
 %check
 
@@ -48,7 +48,10 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
-* Wed Mar 03 2021 Golanv <mullein@adelie.io> 21.0.0
+* Sun Mar 21 2021 Golanv <mullein@adelie.io> 21.0.1-1
+- Version bump to 21.0.1
+- https://github.com/dbeaver/dbeaver/releases/tag/21.0.1
+* Wed Mar 03 2021 Golanv <mullein@adelie.io> 21.0.0-1
 - Version bump to 21.0.0
 - New calendar based versioning
 - https://github.com/dbeaver/dbeaver/releases/tag/21.0.0
