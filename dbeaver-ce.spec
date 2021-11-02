@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	21.2.3
+Version:	21.2.4
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Mon Nov 01 2021 Golanv <mullein@adelie.io> 21.2.4-1
+- Version bump to 21.2.4
+- https://github.com/dbeaver/dbeaver/releases/tag/21.2.4
 * Mon Oct 18 2021 Golanv <mullein@adelie.io> 21.2.3-1
 - Version bump to 21.2.3
 - https://github.com/dbeaver/dbeaver/releases/tag/21.2.3
