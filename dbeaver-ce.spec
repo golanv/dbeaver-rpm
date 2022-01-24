@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	21.3.2
+Version:	21.3.3
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
