@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	21.3.4
+Version:	21.3.5
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -7,10 +7,10 @@ License:	ASL 2.0
 URL:		https://dbeaver.io
 Source0:        https://github.com/dbeaver/dbeaver/archive/%{version}.tar.gz
 Source1:	dbeaver.desktop
-Requires:      java >= 1.8
+Requires:       java
 BuildRequires: maven
 BuildRequires: dos2unix
-BuildRequires: java-devel >= 1.8
+BuildRequires:  java-devel
 ExclusiveArch: x86_64
 
 %description
@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Thu Feb 24 2022 Golanv <mullein@adelie.io> 21.3.5-1
+- Version bump to 21.3.5
+- https://github.com/dbeaver/dbeaver/releases/tag/21.3.5
 * Mon Feb 07 2022 Golanv <mullein@adelie.io> 21.3.4-1
 - Version bump to 21.3.4
 - https://github.com/dbeaver/dbeaver/releases/tag/21.3.4
