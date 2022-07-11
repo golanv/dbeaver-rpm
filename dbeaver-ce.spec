@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	22.1.1
+Version:	22.1.2
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Mon Jul 11 2022 GOlanv <mullein@adelie.io> 22.1.2-1
+- Version bump 22.1.2
+- https://github.com/dbeaver/dbeaver/releases/tag/22.1.2
 * Mon Jun 27 2022 Golanv <mullein@adelie.io> 22.1.1-1
 - Version bump 22.1.1
 - https://github.com/dbeaver/dbeaver/releases/tag/22.1.1
