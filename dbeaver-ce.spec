@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Mon Oct 10 2022 Golanv <mullein@adelie.io> 22.2.2-1
+- Version bump to 22.2.2
+- https://github.com/dbeaver/dbeaver/releases/tag/22.2.2
 * Tue Sep 27 2022 Golanv <mullein@adelie.io> 22.2.1-1
 - Version bump to 22.2.1
 - https://github.com/dbeaver/dbeaver/releases/tag/22.2.1
