@@ -1,5 +1,5 @@
 Name:		dbeaver-ce
-Version:	22.2.2
+Version:	22.2.3
 Release:	1%{?dist}
 Summary:	Universal Database Manager and SQL Client
 
@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Mon Oct 24 2022 Golanv <mullein@adelie.io> 22.2.3-1
+- Version bump to 22.2.3
+- https://github.com/dbeaver/dbeaver/releases/tag/22.2.3
 * Mon Oct 10 2022 Golanv <mullein@adelie.io> 22.2.2-1
 - Version bump to 22.2.2
 - https://github.com/dbeaver/dbeaver/releases/tag/22.2.2
@@ -81,7 +84,7 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 * Mon May 02 2022 Golanv <mullein@adelie.io> 22.0.4-1
 - Version bump to 22.0.4
 - https://github.com/dbeaver/dbeaver/releases/tag/22.0.4
-* Mon Apr 19 2022 Golanv <mullein@adeile.io> 22.0.3-1
+* Mon Apr 18 2022 Golanv <mullein@adeile.io> 22.0.3-1
 - Version bump to 22.0.3
 - https://github.com/dbeaver/dbeaver/releases/tag/22.0.3
 * Mon Apr 04 2022 Golanv <mullein@adelie.io> 22.0.2-1
@@ -117,7 +120,7 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 * Sun Oct 03 2021 Golanv <mullein@adelie.io> 21.2.2-1
 - Version bump to 21.2.2
 - https://github.com/dbeaver/dbeaver/releases/tag/21.2.2
-* Mon Sep 19 2021 Golanv <mullein@adelie.io> 21.2.1-1
+* Mon Sep 20 2021 Golanv <mullein@adelie.io> 21.2.1-1
 - Version bump to 21.2.1
 - https://github.com/dbeaver/dbeaver/releases/tag/21.2.1
 * Mon Aug 30 2021 Golanv <mullein@adelie.io> 21.2.0-1
