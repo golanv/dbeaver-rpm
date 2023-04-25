@@ -48,6 +48,9 @@ mv %{_builddir}/dbeaver.desktop %{buildroot}%{_datarootdir}/applications/
 %{_datarootdir}/applications/dbeaver.desktop
 
 %changelog
+* Tue Apr 25 2023 Golanv <mullein@adelie.io> 23.0.3-1
+- Version bump to 23.0.3
+- https://github.com/dbeaver/dbeaver/releases/tag/23.0.3
 * Mon Apr 10 2023 Golanv <mullein@adelie.io> 23.0.2-1
 - Version bump to 23.0.2
 - https://github.com/dbeaver/dbeaver/releases/tag/23.0.2
